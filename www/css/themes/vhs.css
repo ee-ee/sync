@@ -277,6 +277,14 @@ th {
   font-family: "VHSs";
   src: url("../../fonts/CAMCORDER_REG.otf");
 }
+@font-face {
+    font-family: "VHST";
+    src: url("../../fonts/CAMCORDER_REG.otf");
+}
+@font-face {
+    font-family: "VHSX";
+    src: url("../../fonts/CAMCORDER_OL1.otf");
+}
 .glyphicon {
   position: relative;
   top: 1px;
@@ -909,7 +917,7 @@ body {
   font-size: 14px;
   line-height: 1.42857143;
   color: #c8c8c8;
-  background-color: #272b30;
+  background: url('../../img/vhs_bg.png') #000;
 }
 input,
 button,
@@ -3948,10 +3956,10 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .navbar-brand {
   float: left;
   padding: 15px 15px;
-  font-size: 18px;
+  font-size: 28px;
   line-height: 20px;
   height: 50px;
-  font-family: "VHS";
+  font-family: "VHSX";
 }
 .navbar-brand:hover,
 .navbar-brand:focus {
@@ -6831,7 +6839,7 @@ a.list-group-item-danger.active:focus {
 }
 
 footer {
-    background-color: #161a20 !important;
+    background-color: #111 !important;
 }
 
 input.form-control[type="text"], input.form-control[type="password"],
@@ -6857,8 +6865,8 @@ input.form-control[type="email"], textarea.form-control {
 }
 
 .navbar-inverse {
-    background-image: -webkit-linear-gradient(#484e55, #3a3f44 60%, #313539) !important;
-    background-image: linear-gradient(#484e55, #3a3f44 60%, #313539) !important;
+    background:#222 !important;
+    box-shadow: 0 -1px 8px black !important;
 }
 
 .profile-box, .user-dropdown {
@@ -6872,4 +6880,12 @@ input.form-control[type="email"], textarea.form-control {
 
 .chat-shadow {
     color: #777777;
+}
+
+h3 {
+  font-family: VHS, sans-serif;
+}
+
+thead th {
+  font-family:VHST, sans-serif;
 }
