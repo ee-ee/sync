@@ -3,7 +3,7 @@
     return s.trim();
   });
 
-  var theme = "/css/themes/slate.css";
+  var theme = "/css/themes/vhs.css";
   for (var i = 0; i < c.length; i++) {
     if (c[i].indexOf("cytube-theme=") === 0) {
       theme = c[i].split("=")[1];
@@ -15,7 +15,7 @@
     return;
   }
 
-  if (theme !== "/css/themes/slate.css") {
+  if (theme !== "/css/themes/vhs.css") {
     console.log("THEME COOKIE:", theme);
     var cur = document.getElementById("usertheme");
     cur.parentNode.removeChild(cur);
