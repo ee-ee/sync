@@ -271,11 +271,11 @@ th {
 }
 @font-face {
   font-family: "VHS";
-  src: url("../fonts/CAMCORDER_INV.otf");
+  src: url("../../fonts/CAMCORDER_INV.otf");
 }
 @font-face {
   font-family: "VHSs";
-  src: url("../fonts/CAMCORDER_REG.otf");
+  src: url("../../fonts/CAMCORDER_REG.otf");
 }
 .glyphicon {
   position: relative;
