@@ -269,6 +269,14 @@ th {
   src: url('https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/fonts/glyphicons-halflings-regular.eot');
   src: url('https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), url('https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/fonts/glyphicons-halflings-regular.woff') format('woff'), url('https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/fonts/glyphicons-halflings-regular.ttf') format('truetype'), url('https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular') format('svg');
 }
+@font-face {
+  font-family: "VHS";
+  src: url("../fonts/CAMCORDER_INV.otf");
+}
+@font-face {
+  font-family: "VHSs";
+  src: url("../fonts/CAMCORDER_REG.otf");
+}
 .glyphicon {
   position: relative;
   top: 1px;
@@ -3943,6 +3951,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   font-size: 18px;
   line-height: 20px;
   height: 50px;
+  font-family: "VHS";
 }
 .navbar-brand:hover,
 .navbar-brand:focus {
